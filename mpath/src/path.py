@@ -1,7 +1,7 @@
 import ntpath
 import os
 
-from diclass import DictClass
+from mclass import DictClass
 
 
 def get_path_info(path : str) -> DictClass:
