@@ -7,10 +7,10 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="mpath",
-    version="1.1.2",
+    version="1.1.3",
     author="Moses Dastmard",
     description="give basic information about path",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    install_requires=['mclass', 'ntpath']
+    install_requires=['mclass']
 )
